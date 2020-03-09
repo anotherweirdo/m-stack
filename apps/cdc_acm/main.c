@@ -337,7 +337,7 @@ int8_t app_send_break_callback(uint8_t interface, uint16_t duration)
 
 
 #ifdef _PIC14E
-void interrupt isr()
+void __interrupt() isr()
 {
 	usb_service();
 }

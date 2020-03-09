@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<configurationDescriptor version="62">
+<configurationDescriptor version="65">
   <logicalFolder name="root" displayName="root" projectFiles="true">
     <logicalFolder name="HeaderFiles"
                    displayName="Header Files"
@@ -54,16 +54,23 @@
         <languageToolchainVersion>1.11</languageToolchainVersion>
         <platform>2</platform>
       </toolsSet>
+      <packs>
+        <pack name="PIC24F-GA-GB_DFP" vendor="Microchip" version="1.1.74"/>
+      </packs>
       <compileType>
         <linkerTool>
           <linkerLibItems>
           </linkerLibItems>
         </linkerTool>
+        <archiverTool>
+        </archiverTool>
         <loading>
           <useAlternateLoadableFile>false</useAlternateLoadableFile>
           <parseOnProdLoad>false</parseOnProdLoad>
           <alternateLoadableFile></alternateLoadableFile>
         </loading>
+        <subordinates>
+        </subordinates>
       </compileType>
       <makeCustomizationType>
         <makeCustomizationPreStepEnabled>false</makeCustomizationPreStepEnabled>
@@ -83,6 +90,8 @@
         </C30-AR>
         <C30-AS>
         </C30-AS>
+        <C30-CO>
+        </C30-CO>
         <C30-LD>
         </C30-LD>
         <C30Global>
@@ -97,6 +106,8 @@
         </C30-AR>
         <C30-AS>
         </C30-AS>
+        <C30-CO>
+        </C30-CO>
         <C30-LD>
         </C30-LD>
         <C30Global>
@@ -111,6 +122,8 @@
         </C30-AR>
         <C30-AS>
         </C30-AS>
+        <C30-CO>
+        </C30-CO>
         <C30-LD>
         </C30-LD>
         <C30Global>
@@ -123,6 +136,8 @@
         </C30-AR>
         <C30-AS>
         </C30-AS>
+        <C30-CO>
+        </C30-CO>
         <C30-LD>
         </C30-LD>
         <C30Global>
@@ -171,8 +186,6 @@
       <C30-AR>
         <property key="additional-options-chop-files" value="false"/>
       </C30-AR>
-      <C30-AS>
-      </C30-AS>
       <C30-LD>
         <property key="additional-options-use-response-files" value="false"/>
         <property key="boot-eeprom" value="no_eeprom"/>
@@ -298,16 +311,23 @@
         <languageToolchainVersion>1.11</languageToolchainVersion>
         <platform>2</platform>
       </toolsSet>
+      <packs>
+        <pack name="PIC24F-GA-GB_DFP" vendor="Microchip" version="1.1.74"/>
+      </packs>
       <compileType>
         <linkerTool>
           <linkerLibItems>
           </linkerLibItems>
         </linkerTool>
+        <archiverTool>
+        </archiverTool>
         <loading>
           <useAlternateLoadableFile>false</useAlternateLoadableFile>
           <parseOnProdLoad>false</parseOnProdLoad>
           <alternateLoadableFile></alternateLoadableFile>
         </loading>
+        <subordinates>
+        </subordinates>
       </compileType>
       <makeCustomizationType>
         <makeCustomizationPreStepEnabled>false</makeCustomizationPreStepEnabled>
@@ -327,6 +347,8 @@
         </C30-AR>
         <C30-AS>
         </C30-AS>
+        <C30-CO>
+        </C30-CO>
         <C30-LD>
         </C30-LD>
         <C30Global>
@@ -341,6 +363,8 @@
         </C30-AR>
         <C30-AS>
         </C30-AS>
+        <C30-CO>
+        </C30-CO>
         <C30-LD>
         </C30-LD>
         <C30Global>
@@ -353,6 +377,8 @@
         </C30-AR>
         <C30-AS>
         </C30-AS>
+        <C30-CO>
+        </C30-CO>
         <C30-LD>
         </C30-LD>
         <C30Global>
@@ -401,8 +427,6 @@
       <C30-AR>
         <property key="additional-options-chop-files" value="false"/>
       </C30-AR>
-      <C30-AS>
-      </C30-AS>
       <C30-LD>
         <property key="additional-options-use-response-files" value="false"/>
         <property key="boot-eeprom" value="no_eeprom"/>
@@ -528,16 +552,23 @@
         <languageToolchainVersion>1.11</languageToolchainVersion>
         <platform>2</platform>
       </toolsSet>
+      <packs>
+        <pack name="PIC24F-DA-GB_DFP" vendor="Microchip" version="1.1.14"/>
+      </packs>
       <compileType>
         <linkerTool>
           <linkerLibItems>
           </linkerLibItems>
         </linkerTool>
+        <archiverTool>
+        </archiverTool>
         <loading>
           <useAlternateLoadableFile>false</useAlternateLoadableFile>
           <parseOnProdLoad>false</parseOnProdLoad>
           <alternateLoadableFile></alternateLoadableFile>
         </loading>
+        <subordinates>
+        </subordinates>
       </compileType>
       <makeCustomizationType>
         <makeCustomizationPreStepEnabled>false</makeCustomizationPreStepEnabled>
@@ -557,6 +588,8 @@
         </C30-AR>
         <C30-AS>
         </C30-AS>
+        <C30-CO>
+        </C30-CO>
         <C30-LD>
         </C30-LD>
         <C30Global>
@@ -571,6 +604,8 @@
         </C30-AR>
         <C30-AS>
         </C30-AS>
+        <C30-CO>
+        </C30-CO>
         <C30-LD>
         </C30-LD>
         <C30Global>
@@ -585,6 +620,8 @@
         </C30-AR>
         <C30-AS>
         </C30-AS>
+        <C30-CO>
+        </C30-CO>
         <C30-LD>
         </C30-LD>
         <C30Global>
@@ -597,6 +634,8 @@
         </C30-AR>
         <C30-AS>
         </C30-AS>
+        <C30-CO>
+        </C30-CO>
         <C30-LD>
         </C30-LD>
         <C30Global>
@@ -645,8 +684,6 @@
       <C30-AR>
         <property key="additional-options-chop-files" value="false"/>
       </C30-AR>
-      <C30-AS>
-      </C30-AS>
       <C30-LD>
         <property key="additional-options-use-response-files" value="false"/>
         <property key="boot-eeprom" value="no_eeprom"/>
@@ -785,16 +822,23 @@
         <languageToolchainVersion>1.11</languageToolchainVersion>
         <platform>2</platform>
       </toolsSet>
+      <packs>
+        <pack name="PIC24F-DA-GB_DFP" vendor="Microchip" version="1.1.14"/>
+      </packs>
       <compileType>
         <linkerTool>
           <linkerLibItems>
           </linkerLibItems>
         </linkerTool>
+        <archiverTool>
+        </archiverTool>
         <loading>
           <useAlternateLoadableFile>false</useAlternateLoadableFile>
           <parseOnProdLoad>false</parseOnProdLoad>
           <alternateLoadableFile></alternateLoadableFile>
         </loading>
+        <subordinates>
+        </subordinates>
       </compileType>
       <makeCustomizationType>
         <makeCustomizationPreStepEnabled>false</makeCustomizationPreStepEnabled>
@@ -814,6 +858,8 @@
         </C30-AR>
         <C30-AS>
         </C30-AS>
+        <C30-CO>
+        </C30-CO>
         <C30-LD>
         </C30-LD>
         <C30Global>
@@ -828,6 +874,8 @@
         </C30-AR>
         <C30-AS>
         </C30-AS>
+        <C30-CO>
+        </C30-CO>
         <C30-LD>
         </C30-LD>
         <C30Global>
@@ -840,6 +888,8 @@
         </C30-AR>
         <C30-AS>
         </C30-AS>
+        <C30-CO>
+        </C30-CO>
         <C30-LD>
         </C30-LD>
         <C30Global>
@@ -888,8 +938,6 @@
       <C30-AR>
         <property key="additional-options-chop-files" value="false"/>
       </C30-AR>
-      <C30-AS>
-      </C30-AS>
       <C30-LD>
         <property key="additional-options-use-response-files" value="false"/>
         <property key="boot-eeprom" value="no_eeprom"/>
@@ -1028,16 +1076,23 @@
         <languageToolchainVersion>1.31</languageToolchainVersion>
         <platform>2</platform>
       </toolsSet>
+      <packs>
+        <pack name="PIC18F-J_DFP" vendor="Microchip" version="1.1.24"/>
+      </packs>
       <compileType>
         <linkerTool>
           <linkerLibItems>
           </linkerLibItems>
         </linkerTool>
+        <archiverTool>
+        </archiverTool>
         <loading>
           <useAlternateLoadableFile>false</useAlternateLoadableFile>
           <parseOnProdLoad>false</parseOnProdLoad>
           <alternateLoadableFile></alternateLoadableFile>
         </loading>
+        <subordinates>
+        </subordinates>
       </compileType>
       <makeCustomizationType>
         <makeCustomizationPreStepEnabled>false</makeCustomizationPreStepEnabled>
@@ -1055,6 +1110,8 @@
         </HI-TECH-COMP>
         <HI-TECH-LINK>
         </HI-TECH-LINK>
+        <XC8-CO>
+        </XC8-CO>
         <XC8-config-global>
         </XC8-config-global>
       </item>
@@ -1065,6 +1122,8 @@
         </HI-TECH-COMP>
         <HI-TECH-LINK>
         </HI-TECH-LINK>
+        <XC8-CO>
+        </XC8-CO>
         <XC8-config-global>
         </XC8-config-global>
       </item>
@@ -1075,6 +1134,8 @@
         </HI-TECH-COMP>
         <HI-TECH-LINK>
         </HI-TECH-LINK>
+        <XC8-CO>
+        </XC8-CO>
         <XC8-config-global>
         </XC8-config-global>
       </item>
@@ -1083,6 +1144,8 @@
         </HI-TECH-COMP>
         <HI-TECH-LINK>
         </HI-TECH-LINK>
+        <XC8-CO>
+        </XC8-CO>
         <XC8-config-global>
         </XC8-config-global>
       </item>
@@ -1151,8 +1214,6 @@
         <property key="opt-xc8-linker-serial" value=""/>
         <property key="program-the-device-with-default-config-words" value="true"/>
       </HI-TECH-LINK>
-      <SKDEPIC18FJPlatformTool>
-      </SKDEPIC18FJPlatformTool>
       <XC8-config-global>
         <property key="advanced-elf" value="true"/>
         <property key="output-file-format" value="-mcof,+elf"/>
@@ -1168,21 +1229,28 @@
         <targetDevice>PIC16F1459</targetDevice>
         <targetHeader></targetHeader>
         <targetPluginBoard></targetPluginBoard>
-        <platformTool>PICkit3PlatformTool</platformTool>
+        <platformTool>pk4hybrid</platformTool>
         <languageToolchain>XC8</languageToolchain>
         <languageToolchainVersion>1.31</languageToolchainVersion>
         <platform>2</platform>
       </toolsSet>
+      <packs>
+        <pack name="PIC12-16F1xxx_DFP" vendor="Microchip" version="1.1.53"/>
+      </packs>
       <compileType>
         <linkerTool>
           <linkerLibItems>
           </linkerLibItems>
         </linkerTool>
+        <archiverTool>
+        </archiverTool>
         <loading>
           <useAlternateLoadableFile>false</useAlternateLoadableFile>
           <parseOnProdLoad>false</parseOnProdLoad>
           <alternateLoadableFile></alternateLoadableFile>
         </loading>
+        <subordinates>
+        </subordinates>
       </compileType>
       <makeCustomizationType>
         <makeCustomizationPreStepEnabled>false</makeCustomizationPreStepEnabled>
@@ -1200,6 +1268,8 @@
         </HI-TECH-COMP>
         <HI-TECH-LINK>
         </HI-TECH-LINK>
+        <XC8-CO>
+        </XC8-CO>
         <XC8-config-global>
         </XC8-config-global>
       </item>
@@ -1210,6 +1280,8 @@
         </HI-TECH-COMP>
         <HI-TECH-LINK>
         </HI-TECH-LINK>
+        <XC8-CO>
+        </XC8-CO>
         <XC8-config-global>
         </XC8-config-global>
       </item>
@@ -1220,6 +1292,8 @@
         </HI-TECH-COMP>
         <HI-TECH-LINK>
         </HI-TECH-LINK>
+        <XC8-CO>
+        </XC8-CO>
         <XC8-config-global>
         </XC8-config-global>
       </item>
@@ -1228,6 +1302,8 @@
         </HI-TECH-COMP>
         <HI-TECH-LINK>
         </HI-TECH-LINK>
+        <XC8-CO>
+        </XC8-CO>
         <XC8-config-global>
         </XC8-config-global>
       </item>
@@ -1329,6 +1405,9 @@
         <property key="programoptions.uselvpprogramming" value="false"/>
         <property key="voltagevalue" value="3.375"/>
       </PICkit3PlatformTool>
+      <XC8-CO>
+        <property key="coverage-enable" value=""/>
+      </XC8-CO>
       <XC8-config-global>
         <property key="advanced-elf" value="true"/>
         <property key="output-file-format" value="-mcof,+elf"/>
@@ -1349,16 +1428,23 @@
         <languageToolchainVersion></languageToolchainVersion>
         <platform>2</platform>
       </toolsSet>
+      <packs>
+        <pack name="PIC12-16F1xxx_DFP" vendor="Microchip" version="1.1.53"/>
+      </packs>
       <compileType>
         <linkerTool>
           <linkerLibItems>
           </linkerLibItems>
         </linkerTool>
+        <archiverTool>
+        </archiverTool>
         <loading>
           <useAlternateLoadableFile>false</useAlternateLoadableFile>
           <parseOnProdLoad>false</parseOnProdLoad>
           <alternateLoadableFile></alternateLoadableFile>
         </loading>
+        <subordinates>
+        </subordinates>
       </compileType>
       <makeCustomizationType>
         <makeCustomizationPreStepEnabled>false</makeCustomizationPreStepEnabled>
@@ -1376,6 +1462,8 @@
         </HI-TECH-COMP>
         <HI-TECH-LINK>
         </HI-TECH-LINK>
+        <XC8-CO>
+        </XC8-CO>
         <XC8-config-global>
         </XC8-config-global>
       </item>
@@ -1386,6 +1474,8 @@
         </HI-TECH-COMP>
         <HI-TECH-LINK>
         </HI-TECH-LINK>
+        <XC8-CO>
+        </XC8-CO>
         <XC8-config-global>
         </XC8-config-global>
       </item>
@@ -1396,6 +1486,8 @@
         </HI-TECH-COMP>
         <HI-TECH-LINK>
         </HI-TECH-LINK>
+        <XC8-CO>
+        </XC8-CO>
         <XC8-config-global>
         </XC8-config-global>
       </item>
@@ -1404,6 +1496,8 @@
         </HI-TECH-COMP>
         <HI-TECH-LINK>
         </HI-TECH-LINK>
+        <XC8-CO>
+        </XC8-CO>
         <XC8-config-global>
         </XC8-config-global>
       </item>
@@ -1524,16 +1618,23 @@
         <languageToolchainVersion>1.21</languageToolchainVersion>
         <platform>2</platform>
       </toolsSet>
+      <packs>
+        <pack name="PIC32MX_DFP" vendor="Microchip" version="1.1.215"/>
+      </packs>
       <compileType>
         <linkerTool>
           <linkerLibItems>
           </linkerLibItems>
         </linkerTool>
+        <archiverTool>
+        </archiverTool>
         <loading>
           <useAlternateLoadableFile>false</useAlternateLoadableFile>
           <parseOnProdLoad>true</parseOnProdLoad>
           <alternateLoadableFile></alternateLoadableFile>
         </loading>
+        <subordinates>
+        </subordinates>
       </compileType>
       <makeCustomizationType>
         <makeCustomizationPreStepEnabled>false</makeCustomizationPreStepEnabled>
@@ -1553,6 +1654,8 @@
         </C32-AR>
         <C32-AS>
         </C32-AS>
+        <C32-CO>
+        </C32-CO>
         <C32-LD>
         </C32-LD>
         <C32CPP>
@@ -1569,6 +1672,8 @@
         </C32-AR>
         <C32-AS>
         </C32-AS>
+        <C32-CO>
+        </C32-CO>
         <C32-LD>
         </C32-LD>
         <C32CPP>
@@ -1585,6 +1690,8 @@
         </C32-AR>
         <C32-AS>
         </C32-AS>
+        <C32-CO>
+        </C32-CO>
         <C32-LD>
         </C32-LD>
         <C32CPP>
@@ -1599,6 +1706,8 @@
         </C32-AR>
         <C32-AS>
         </C32-AS>
+        <C32-CO>
+        </C32-CO>
         <C32-LD>
         </C32-LD>
         <C32CPP>
@@ -1731,6 +1840,9 @@
         <languageToolchainVersion>1.40</languageToolchainVersion>
         <platform>2</platform>
       </toolsSet>
+      <packs>
+        <pack name="PIC32MX_DFP" vendor="Microchip" version="1.1.215"/>
+      </packs>
       <compileType>
         <linkerTool>
           <linkerLibItems>
@@ -1743,6 +1855,8 @@
           <parseOnProdLoad>true</parseOnProdLoad>
           <alternateLoadableFile></alternateLoadableFile>
         </loading>
+        <subordinates>
+        </subordinates>
       </compileType>
       <makeCustomizationType>
         <makeCustomizationPreStepEnabled>false</makeCustomizationPreStepEnabled>
@@ -1762,6 +1876,8 @@
         </C32-AR>
         <C32-AS>
         </C32-AS>
+        <C32-CO>
+        </C32-CO>
         <C32-LD>
         </C32-LD>
         <C32CPP>
@@ -1778,6 +1894,8 @@
         </C32-AR>
         <C32-AS>
         </C32-AS>
+        <C32-CO>
+        </C32-CO>
         <C32-LD>
         </C32-LD>
         <C32CPP>
@@ -1794,6 +1912,8 @@
         </C32-AR>
         <C32-AS>
         </C32-AS>
+        <C32-CO>
+        </C32-CO>
         <C32-LD>
         </C32-LD>
         <C32CPP>
@@ -1808,6 +1928,8 @@
         </C32-AR>
         <C32-AS>
         </C32-AS>
+        <C32-CO>
+        </C32-CO>
         <C32-LD>
         </C32-LD>
         <C32CPP>
